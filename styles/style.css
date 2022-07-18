@@ -334,7 +334,6 @@
   margin: 100px 0 0;
   display: flex;
   justify-content: center;
-  align-items: center;
   gap: 40px;
 }
 
@@ -348,6 +347,7 @@
   line-height: 30px;
   font-weight: 700;
   display: flex;
+  align-items: center;
 }
 
 .step__icon {
@@ -402,7 +402,7 @@
 
 .footer {
   box-sizing: border-box;
-  background-color: #000000;
+  background-color: #1f1f1f;
   padding: 60px 102px 60px 80px;
 }
 
@@ -457,9 +457,10 @@
 .footer__social-icon {
   height: 16px;
   width: 16px;
+  margin-right: 10px;
 }
 
 .footer__copyright {
-  color: white;
+  color: #fff;
   margin-bottom: auto;
 }
